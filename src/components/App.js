@@ -1,4 +1,4 @@
-import React, {Component } from 'react';
+import React, { Component } from 'react';
 import PlannerList from "./PlannerList";
 
 class App extends Component {
@@ -6,7 +6,7 @@ class App extends Component {
       return (
           <div className="App">
               <h2>Hello MasterPlanner</h2>
-              <PlannerList/>
+              <PlannerList title="test"/>
           </div>
       );
   }
